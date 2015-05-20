@@ -15,5 +15,6 @@
 @property (nonatomic, assign) BOOL resizableCropArea;
 
 - (UIImage *)croppedImage;
+- (UIImage *)croppedImageFullRes;
 
 @end
