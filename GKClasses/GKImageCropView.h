@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UIImage+Resize.h"
+#import "UIImage+FixOrientation.h"
 
 @interface GKImageCropView : UIView
 
@@ -15,5 +17,6 @@
 @property (nonatomic, assign) BOOL resizableCropArea;
 
 - (UIImage *)croppedImage;
+- (UIImage *)croppedImageFullRes;
 
 @end
