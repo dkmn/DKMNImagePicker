@@ -12,7 +12,6 @@
 		6300ADA61B0D31910034AC3B /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 6300AD9F1B0D31910034AC3B /* UIImage+Resize.m */; };
 		6300ADA71B0D31910034AC3B /* UIImage+Rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6300ADA11B0D31910034AC3B /* UIImage+Rotate.m */; };
 		6300ADA81B0D31910034AC3B /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 6300ADA31B0D31910034AC3B /* UIImage+RoundedCorner.m */; };
-		63DF3A121B0C19DF0025786A /* GKImageFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DF3A111B0C19DF0025786A /* GKImageFrameworkTests.m */; };
 		C147FBF61677C12F0035B373 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C147FBF51677C12F0035B373 /* Default-568h@2x.png */; };
 		C1C7B6631598429E007B2669 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C7B6621598429E007B2669 /* UIKit.framework */; };
 		C1C7B6651598429E007B2669 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C7B6641598429E007B2669 /* Foundation.framework */; };
@@ -40,16 +39,6 @@
 		D696F4FA16111C28007802E6 /* GKCropBorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = D696F4F916111C28007802E6 /* GKCropBorderView.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		63DF3A0C1B0C19DF0025786A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C1C7B6551598429E007B2669 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C1C7B65D1598429E007B2669;
-			remoteInfo = GKImagePicker;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		63DF3A1C1B0C19DF0025786A /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -76,7 +65,6 @@
 		6300ADA31B0D31910034AC3B /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
 		63DF3A011B0C19DF0025786A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63DF3A021B0C19DF0025786A /* GKImageFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKImageFramework.h; sourceTree = "<group>"; };
-		63DF3A081B0C19DF0025786A /* GKImageFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GKImageFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63DF3A101B0C19DF0025786A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63DF3A111B0C19DF0025786A /* GKImageFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKImageFrameworkTests.m; sourceTree = "<group>"; };
 		C147FBF51677C12F0035B373 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -118,13 +106,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		63DF3A051B0C19DF0025786A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C1C7B65B1598429E007B2669 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -204,7 +185,6 @@
 			isa = PBXGroup;
 			children = (
 				C1C7B65E1598429E007B2669 /* GKImagePicker.app */,
-				63DF3A081B0C19DF0025786A /* GKImageFrameworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -286,24 +266,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		63DF3A071B0C19DF0025786A /* GKImageFrameworkTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 63DF3A1D1B0C19DF0025786A /* Build configuration list for PBXNativeTarget "GKImageFrameworkTests" */;
-			buildPhases = (
-				63DF3A041B0C19DF0025786A /* Sources */,
-				63DF3A051B0C19DF0025786A /* Frameworks */,
-				63DF3A061B0C19DF0025786A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				63DF3A0D1B0C19DF0025786A /* PBXTargetDependency */,
-			);
-			name = GKImageFrameworkTests;
-			productName = GKImageFrameworkTests;
-			productReference = 63DF3A081B0C19DF0025786A /* GKImageFrameworkTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		C1C7B65D1598429E007B2669 /* GKImagePicker */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1C7B67F1598429E007B2669 /* Build configuration list for PBXNativeTarget "GKImagePicker" */;
@@ -330,12 +292,6 @@
 			attributes = {
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Georg Kitz";
-				TargetAttributes = {
-					63DF3A071B0C19DF0025786A = {
-						CreatedOnToolsVersion = 6.3.2;
-						TestTargetID = C1C7B65D1598429E007B2669;
-					};
-				};
 			};
 			buildConfigurationList = C1C7B6581598429E007B2669 /* Build configuration list for PBXProject "GKImagePicker" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -350,19 +306,11 @@
 			projectRoot = "";
 			targets = (
 				C1C7B65D1598429E007B2669 /* GKImagePicker */,
-				63DF3A071B0C19DF0025786A /* GKImageFrameworkTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		63DF3A061B0C19DF0025786A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C1C7B65C1598429E007B2669 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -386,14 +334,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		63DF3A041B0C19DF0025786A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				63DF3A121B0C19DF0025786A /* GKImageFrameworkTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C1C7B65A1598429E007B2669 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -416,14 +356,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		63DF3A0D1B0C19DF0025786A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C1C7B65D1598429E007B2669 /* GKImagePicker */;
-			targetProxy = 63DF3A0C1B0C19DF0025786A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C1C7B66B1598429E007B2669 /* InfoPlist.strings */ = {
@@ -453,79 +385,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		63DF3A191B0C19DF0025786A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				INFOPLIST_FILE = GKImageFrameworkTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GKImagePicker.app/GKImagePicker";
-			};
-			name = Debug;
-		};
-		63DF3A1A1B0C19DF0025786A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				INFOPLIST_FILE = GKImageFrameworkTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GKImagePicker.app/GKImagePicker";
-			};
-			name = Release;
-		};
 		C1C7B67D1598429E007B2669 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -610,15 +469,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		63DF3A1D1B0C19DF0025786A /* Build configuration list for PBXNativeTarget "GKImageFrameworkTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				63DF3A191B0C19DF0025786A /* Debug */,
-				63DF3A1A1B0C19DF0025786A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		C1C7B6581598429E007B2669 /* Build configuration list for PBXProject "GKImagePicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
